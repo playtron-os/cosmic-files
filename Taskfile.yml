@@ -232,6 +232,7 @@ tasks:
           -e CARGO_HOME=/home/build/.cargo \
           -e CARGO_NET_GIT_FETCH_WITH_CLI=true \
           -e GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
+          -e PKG_CONFIG_SYSROOT_DIR="/usr/{{.ARCH}}-linux-gnu" \
           --user {{.UID}}:{{.GID}} \
           {{.IMAGE_NAME}}:{{.IMAGE_TAG}} \
           task {{.TARGET}} ARCH={{.ARCH}} TARGET_ARCH={{.TARGET_ARCH}}

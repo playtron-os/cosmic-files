@@ -40,6 +40,7 @@ use cosmic::{
         menu::{action::MenuAction, key_bind::KeyBind},
     },
 };
+#[cfg(feature = "gvfs")]
 use gio::prelude::FileExt;
 use i18n_embed::LanguageLoader;
 use icu::{

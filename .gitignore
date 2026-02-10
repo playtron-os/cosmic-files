@@ -1,8 +1,11 @@
 /.cargo/
+/.cache/
+/builder/
 /debian/*debhelper*
 /debian/cosmic-files.substvars
 /debian/cosmic-files/
 /debian/files
+/dist/
 /flamegraph.svg
 /heaptrack.*
 /perf.*

@@ -1,5 +1,5 @@
 Name:           cosmic-files
-Version:        1.0.5
+Version: 1.0.0
 Release:        1%{?dist}
 Summary:        COSMIC File Manager
 
